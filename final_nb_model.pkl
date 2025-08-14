@@ -1,0 +1,5 @@
+import pickle
+
+# Load your final Naive Bayes model
+with open("models/final_nb_model.pkl", "rb") as file:
+    final_nb_model = pickle.load(file)

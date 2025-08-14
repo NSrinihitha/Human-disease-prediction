@@ -1,0 +1,5 @@
+import pickle
+
+# Load your final SVM model
+with open("models/final_svm_model.pkl", "rb") as file:
+    final_svm_model = pickle.load(file)

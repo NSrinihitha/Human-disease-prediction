@@ -1,0 +1,5 @@
+import pickle
+
+# Load your symptom index
+with open("models/symptom_index.pkl", "rb") as file:
+    symptom_index = pickle.load(file)

@@ -1,0 +1,5 @@
+import pickle
+
+# Load your final Random Forest model
+with open("models/final_rf_model.pkl", "rb") as file:
+    final_rf_model = pickle.load(file)

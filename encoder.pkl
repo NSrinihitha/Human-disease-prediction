@@ -1,0 +1,5 @@
+import pickle
+
+# Load your encoder
+with open("models/encoder.pkl", "rb") as file:
+    encoder = pickle.load(file)
